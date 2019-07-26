@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    margin: 0;
+    /*padding: */
+}
+
+header {
+    background-image: url("huntington.png");
+    background-size: cover;
+    padding: 40px;
+
+}
+h1 {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px black;
+
+}
+
+h2 {
+    background-image: url("zen.svg");
+    background-position: calc(50% - 100px) 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Satisfy', cursive;
+    font-style: italic;
+    text-align: center;
+    color: lightgray;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 70%;
+    color: #325050;
+    padding: 0px 10px 0px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 10px 0px;
+}
+
+div.participation, div.benefits {
+    background-color: rgba(138,188,159,0.5);
+    background-image: url("bamboo.png");
+    background-size: contain;
+    padding: 10px 10px;
+  
+}
+
+.participation > p, .benefits > p {
+    color: white;
+}
+
+p[role="contentinfo"] {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 100%;
+    color: gray;
+    background-image: url("koi.jpg");
+    padding-bottom: 32px;
+    padding-top: 32px;
+    width: auto;
+    text-align: center;
+}
+
+a[href="http://www.mezzoblue.com/"] {
+    font-family: 'Satisfy', cursive;
+    color: lightgray;
+    text-decoration: none; 
+}
+
+a[href="http://www.mediatemple.net/"] {
+    font-family: 'Satisfy', cursive;
+    color: lightgray;
+    text-decoration: none; 
+}
+
+a[href="http://www.amazon.com/exec/obidos/ASIN/0321303474/mezzoblue-20/"]{
+    font-family: 'Satisfy', cursive;
+    color: lightgray;
+    text-decoration: none; 
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(94, 143, 104);
+    padding: 10px 10% 10px 10%;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+footer a {
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    
+}
+
+footer a:visited {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+a:visited {
+    color: #1a5952;
+}
+
+/*footer.zen-validate-html, footer.zen-validate-css, footer.zen-license, footer.zen-accessibility, footer.zen-github {
+    
+}
+
+
